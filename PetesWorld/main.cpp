@@ -1,8 +1,13 @@
 // program to find countries in Pete's World
 // date November 2022
 // author Pete Lowe
+<<<<<<< HEAD
 // Shane Moran
 //  or here
+=======
+// add your name here
+// LIAM TREACY 
+>>>>>>> a18267aad2918240e15ce35dfd41889670fb8e43
 // estimated time 120 minutes
 // actual time 120 minutes
 // version 1.0
