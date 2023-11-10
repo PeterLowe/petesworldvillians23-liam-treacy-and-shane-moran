@@ -1,13 +1,8 @@
 // program to find countries in Pete's World
 // date November 2022
 // author Pete Lowe
-<<<<<<< HEAD
 // Shane Moran
-//  or here
-=======
-// add your name here
 // LIAM TREACY 
->>>>>>> a18267aad2918240e15ce35dfd41889670fb8e43
 // estimated time 120 minutes
 // actual time 120 minutes
 // version 1.0
@@ -27,7 +22,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to A or Y to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to A or X to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
@@ -60,6 +55,29 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}	
+	if (letter == 'x' || letter == 'X') // X Code by Liam
+	{
+		if (region == 1)
+		{
+			std::cout << "there are no Xs in the Americas" << std::endl; // no country
+		}
+		if (region == 2)
+		{
+			std::cout << "there are no Xs in Europe" << std::endl; // no country
+		}
+		if (region == 3)
+		{
+			std::cout << "there are no Xs in Africa" << std::endl; // no country
+		}
+		if (region == 4)
+		{
+			std::cout << "there is no Xs in Asia" << std::endl; // no country
+		}
+		if (region == 5)
+		{
+			std::cout << "there is no Xs in the rest of the world either" << std::endl; // no country
+		}
+	}
 	if (letter == 'y' || letter == 'Y') // Y letter code by Liam
 	{
 		if (region == 1)
