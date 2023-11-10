@@ -22,7 +22,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to A or X to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to D or U to Z" << std::endl; // change this line each iteration
 
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -60,7 +60,7 @@ int main()
 	{
 		if (region == 1)
 		{
-<<<<<<< HEAD
+
 			std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia";
 		}
 		if (region == 2)
@@ -79,53 +79,6 @@ int main()
 		{
 			std::cout << "Brazil";
 		}
-	}
-	if (letter == 'x' || letter == 'X') // X Code by Liam
-	{
-		if (region == 1)
-		{
-			std::cout << "there are no Xs in the Americas" << std::endl; // no country
-		}
-		if (region == 2)
-		{
-			std::cout << "there are no Xs in Europe" << std::endl; // no country
-		}
-		if (region == 3)
-		{
-			std::cout << "there are no Xs in Africa" << std::endl; // no country
-		}
-		if (region == 4)
-		{
-			std::cout << "there is no Xs in Asia" << std::endl; // no country
-		}
-		if (region == 5)
-		{
-			std::cout << "there is no Xs in the rest of the world either" << std::endl; // no country
-		}
-	}
-	
-=======
-			if (region == 1)
-			{
-				std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia" << std::endl;
-			}
-			if (region == 2)
-			{
-				std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
-			}
-			if (region == 3)
-			{
-				std::cout << "Burundi, Benin, Botswana, Burkina Faso" << std::endl;
-			}
-			if (region == 4)
-			{
-				std::cout << "Bahrain, Bangladesh, Bhutan, Brunei" << std::endl;
-			}
-			if (region == 5)
-			{
-				std::cout << "Brazil" << std::endl;
-			}
-		}
 		if (letter == 'c' || letter == 'C')
 		{
 			if (region == 1)
@@ -134,7 +87,7 @@ int main()
 			}
 			if (region == 2)
 			{
-				std::cout << "Croatia, Cyprus, Czech Republic" << std::endl;
+				std::cout << "Croatia, Cyprus , Czech Republic" << std::endl;
 			}
 			if (region == 3)
 			{
@@ -149,7 +102,59 @@ int main()
 				std::cout << "Canada, Chile, Cook Islands" << std::endl;
 			}
 		}
->>>>>>> 3c4228abe838861673d4ff49e3ea9bb621ed783d
+		if (letter == 'u' || letter == 'U') // U code by Liam
+		{
+			if (region == 1)
+			{
+				std::cout << "united states of america, uruguay" << std::endl;
+			}
+			if(region == 2)
+			{
+				std::cout << "United Kingdom Ukraine" << std::endl;
+			}
+			if (region == 3)
+			{
+				std::cout << "Uganda" << std::endl;
+			}
+			if (region == 4)
+			{
+				std::cout << ""
+			}
+
+
+
+
+
+
+
+
+
+		
+		}
+	
+	if (letter == 'x' || letter == 'X') // X Code by Liam
+		if (region == 1)
+		{
+			std::cout << "there are no Xs in the Americas" << std::endl; // no country
+		}
+	if (region == 2)
+	{
+		std::cout << "there are no Xs in Europe" << std::endl; // no country
+	}
+	if (region == 3)
+	{
+		std::cout << "there are no Xs in Africa" << std::endl; // no country
+	}
+	if (region == 4)
+	{
+		std::cout << "there is no Xs in Asia" << std::endl; // no country
+	}
+	if (region == 5)
+	{
+		std::cout << "there is no Xs in the rest of the world either" << std::endl; // no country
+	}
+}
+		{
 	if (letter == 'y' || letter == 'Y') // Y letter code by Liam
 	{
 		if (region == 1)
