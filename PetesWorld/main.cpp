@@ -121,7 +121,7 @@ int main()
 			}
 			if (region == 5)
 			{
-				std::cout << "There are no countries beginning with D in Rest of World" << std::endl;
+				std::cout << "There are no countries beginning with D in the rest of  the World" << std::endl;
 			}
 		}
 	if (letter == 'y' || letter == 'Y') // Y letter code by Liam
