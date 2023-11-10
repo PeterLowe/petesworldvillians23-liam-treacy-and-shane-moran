@@ -23,6 +23,7 @@ int main()
 		return 0;
 	}
 	std::cout << "Pick a letter from A to A or X to Z" << std::endl; // change this line each iteration
+
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
@@ -55,6 +56,29 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}	
+	if (letter == 'b' || letter == 'B')
+	{
+		if (region == 1)
+		{
+			std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia";
+		}
+		if (region == 2)
+		{
+			std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria";
+		}
+		if (region == 3)
+		{
+			std::cout << "Burundi, Benin, Botswana, Burkina Faso";
+		}
+		if (region == 4)
+		{
+			std::cout << "Bahrain, Bangladesh, Bhutan, Brunei";
+		}
+		if (region == 5)
+		{
+			std::cout << "Brazil";
+		}
+	}
 	if (letter == 'x' || letter == 'X') // X Code by Liam
 	{
 		if (region == 1)
@@ -78,6 +102,7 @@ int main()
 			std::cout << "there is no Xs in the rest of the world either" << std::endl; // no country
 		}
 	}
+	
 	if (letter == 'y' || letter == 'Y') // Y letter code by Liam
 	{
 		if (region == 1)
@@ -101,6 +126,7 @@ int main()
 			std::cout << "there is no Ys in the rest of the world" << std::endl; // no country
 		}
 	}
+
 
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
