@@ -127,6 +127,29 @@ int main()
 				std::cout << "There are no countries beginning with D in the rest of  the World" << std::endl;
 			}
 		}
+		if (letter == 'x' || letter == 'X') // X Code by Liam
+		{
+			if (region == 1)
+			{
+				std::cout << "there are no Xs in the Americas" << std::endl; // no country
+			}
+			if (region == 2)
+			{
+				std::cout << "there are no Xs in Europe" << std::endl; // no country
+			}
+			if (region == 3)
+			{
+				std::cout << "there are no Xs in Africa" << std::endl; // no country
+			}
+			if (region == 4)
+			{
+				std::cout << "there is no Xs in Asia" << std::endl; // no country
+			}
+			if (region == 5)
+			{
+				std::cout << "there is no Xs in the rest of the world either" << std::endl; // no country
+			}
+		}
 	if (letter == 'y' || letter == 'Y') // Y letter code by Liam
 	{
 		if (region == 1)
