@@ -59,26 +59,48 @@ int main()
 		{
 			if (region == 1)
 			{
-				std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia";
+				std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia" << std::endl;
 			}
 			if (region == 2)
 			{
-				std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria";
+				std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
 			}
 			if (region == 3)
 			{
-				std::cout << "Burundi, Benin, Botswana, Burkina Faso";
+				std::cout << "Burundi, Benin, Botswana, Burkina Faso" << std::endl;
 			}
 			if (region == 4)
 			{
-				std::cout << "Bahrain, Bangladesh, Bhutan, Brunei";
+				std::cout << "Bahrain, Bangladesh, Bhutan, Brunei" << std::endl;
 			}
 			if (region == 5)
 			{
-				std::cout << "Brazil";
+				std::cout << "Brazil" << std::endl;
 			}
 		}
-	
+		if (letter == 'c' || letter == 'C')
+		{
+			if (region == 1)
+			{
+				std::cout << "Cayman Islands, Colombia, Costa Rica, Cuba" << std::endl;
+			}
+			if (region == 2)
+			{
+				std::cout << "Croatia, Cyprus, Czech Republic" << std::endl;
+			}
+			if (region == 3)
+			{
+				std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Democratic Republic of the Congo, Côte D'ivoire" << std::endl;
+			}
+			if (region == 4)
+			{
+				std::cout << "Cambodia, China, Christmas Island, Cocos (Keeling) Islands" << std::endl;
+			}
+			if (region == 5)
+			{
+				std::cout << "Canada, Chile, Cook Islands" << std::endl;
+			}
+		}
 	if (letter == 'y' || letter == 'Y') // Y letter code by Liam
 	{
 		if (region == 1)
