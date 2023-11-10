@@ -22,13 +22,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-<<<<<<< HEAD
 	std::cout << "Pick a letter from A to C or X to Z" << std::endl; // change this line each iteratio
-=======
-	std::cout << "Pick a letter from A to A or X to Z" << std::endl; // change this line each iteration
-
->>>>>>> c7ba22c5f9b82f0835ffd9c495131a4716eada2d
-	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
 		if (letter < 'a' || letter > 'z') // not a lower case letter
@@ -64,51 +58,7 @@ int main()
 	{
 		if (region == 1)
 		{
-<<<<<<< HEAD
-			std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia";
-		}
-		if (region == 2)
-		{
-			std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria";
-		}
-		if (region == 3)
-		{
-			std::cout << "Burundi, Benin, Botswana, Burkina Faso";
-		}
-		if (region == 4)
-		{
-			std::cout << "Bahrain, Bangladesh, Bhutan, Brunei";
-		}
-		if (region == 5)
-		{
-			std::cout << "Brazil";
-		}
-	}
-	if (letter == 'x' || letter == 'X') // X Code by Liam
-	{
-		if (region == 1)
-		{
-			std::cout << "there are no Xs in the Americas" << std::endl; // no country
-		}
-		if (region == 2)
-		{
-			std::cout << "there are no Xs in Europe" << std::endl; // no country
-		}
-		if (region == 3)
-		{
-			std::cout << "there are no Xs in Africa" << std::endl; // no country
-		}
-		if (region == 4)
-		{
-			std::cout << "there is no Xs in Asia" << std::endl; // no country
-		}
-		if (region == 5)
-		{
-			std::cout << "there is no Xs in the rest of the world either" << std::endl; // no country
-		}
-	}
-	
-=======
+
 			if (region == 1)
 			{
 				std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia" << std::endl;
@@ -130,6 +80,7 @@ int main()
 				std::cout << "Brazil" << std::endl;
 			}
 		}
+	}
 		if (letter == 'c' || letter == 'C')
 		{
 			if (region == 1)
@@ -153,7 +104,6 @@ int main()
 				std::cout << "Canada, Chile, Cook Islands" << std::endl;
 			}
 		}
-<<<<<<< HEAD
 		if (letter == 'd' || letter == 'D')
 		{
 			if (region == 1)
@@ -177,9 +127,6 @@ int main()
 				std::cout << "There are no countries beginning with D in the rest of  the World" << std::endl;
 			}
 		}
-=======
->>>>>>> 3c4228abe838861673d4ff49e3ea9bb621ed783d
->>>>>>> c7ba22c5f9b82f0835ffd9c495131a4716eada2d
 	if (letter == 'y' || letter == 'Y') // Y letter code by Liam
 	{
 		if (region == 1)
